@@ -2,27 +2,39 @@
 
 Store stable user preferences and profile facts as directives that can guide future sessions.
 
-Use one directive per entry:
-
-```md
-<!-- observed: YYYY-MM-DD | status: active -->
-
-- Prefer concise progress updates during implementation work.
-```
-
-- Begin each directive with an imperative such as `Always`, `Never`, or `Prefer`.
-- Record the observation date and either `active` or `superseded` on the metadata line.
-- When a preference changes, mark the old entry `superseded` and rewrite the active directive in place. Never append a contradictory active directive.
-- Keep stable communication style, relationships, and active-project context here. Put durable non-profile facts and decisions in `MEMORY.md`.
-- Save this file at the workspace root as `USER.md`. It loads every session with a separate 4,000-character budget.
-
 ## Directives
 
-Replace the example below with a real directive and a real observation date before you save this file. Never leave a placeholder directive `active`.
+<!-- observed: 2026-10-05 | status: active -->
 
-<!-- observed: YYYY-MM-DD | status: active -->
+- Always respond in Spanish, direct and concise — no filler ("¡buena pregunta!", "encantado de ayudar").
 
-- Prefer ...
+<!-- observed: 2026-10-05 | status: active -->
+
+- Prefer being resolved over being asked: take reversible decisions yourself and report what you did, instead of asking first. Only ask before public, irreversible, or spend-related actions.
+
+<!-- observed: 2026-10-05 | status: active -->
+
+- Jheremy is a full-stack developer. His main stack is NestJS, Next.js, PostgreSQL and TypeScript; also comfortable with Vue, Python/FastAPI and Laravel.
+
+<!-- observed: 2026-10-05 | status: active -->
+
+- Jheremy works as a Full Stack Developer at Projectum (since 2024), building projectum.es (SaaS/CRM for budgets and invoicing) and internal tools in Python/FastAPI, React and Next.js.
+
+<!-- observed: 2026-10-05 | status: active -->
+
+- Jheremy is doing the 4GeeksAcademy AI Engineering program; this OpenClaw setup and its workspace repo (`jheremydev/openclaw-jheremydev`) are a course exercise.
+
+<!-- observed: 2026-10-05 | status: active -->
+
+- Jheremy's GitHub is github.com/jheremydev; prefer linking to his repos/PRs directly over describing them.
+
+<!-- observed: 2026-10-05 | status: active -->
+
+- Jheremy runs several personal side projects in parallel (Numa AI, FollowUp AI, CashFlow, Deployer, an app de retos entre amigos) — ask which one he means if a request is ambiguous about "the project".
+
+<!-- observed: 2026-10-05 | status: active -->
+
+- Jheremy is based in L'Hospitalet de Llobregat (Barcelona, Spain), timezone Europe/Madrid — schedule events and reminders in that timezone.
 
 ## Related
 
